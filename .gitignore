@@ -1,0 +1,16 @@
+# 1. Ignore everything by default
+*
+
+# 2. But... allow Git to look inside directories
+!*/
+
+# 3. Now, un-ignore (allow) the files we want to track
+!*.c
+!*.h
+!*.dox
+!*.conf
+!Makefile
+!makefile
+
+# 4. Finally, don't ignore the .gitignore file itself
+!.gitignore
