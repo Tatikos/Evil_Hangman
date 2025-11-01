@@ -1,0 +1,9 @@
+<map id="hashtable.h" name="hashtable.h">
+<area shape="rect" id="node1" title="Header file for hashtable and list data structures." alt="" coords="140,5,239,32"/>
+<area shape="rect" id="node2" href="$as2_8c.html" title="Main program file for Evil Hangman game." alt="" coords="125,155,181,181"/>
+<area shape="rect" id="node3" href="$dictionary_8h.html" title="Header file for dictionary operations." alt="" coords="18,80,115,107"/>
+<area shape="rect" id="node5" href="$game_8h.html" title="Header file for game logic." alt="" coords="191,80,262,107"/>
+<area shape="rect" id="node7" href="$hashtable_8c.html" title="Implementation of hashtable and list data structures." alt="" coords="286,80,383,107"/>
+<area shape="rect" id="node4" href="$dictionary_8c.html" title="Implementation of dictionary operations." alt="" coords="5,155,101,181"/>
+<area shape="rect" id="node6" href="$game_8c.html" title="Implementation of game logic." alt="" coords="206,155,277,181"/>
+</map>

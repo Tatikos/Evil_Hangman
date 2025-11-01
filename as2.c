@@ -48,6 +48,7 @@ int main(int argc, char *argv[]) {
 
     play_game(game);
     free_game(game);
+    free_list(dictionary);
 
     return 0;
 }

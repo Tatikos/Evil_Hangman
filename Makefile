@@ -39,6 +39,6 @@ clean:
 
 # Valgrind test
 valgrind: $(TARGET)
-	valgrind --tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-fds=yes --track-origins=yes ./$(TARGET) toyexample.txt &> valgrind.txt
+	valgrind --tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-fds=yes --track-origins=yes --log-file="valgrind.txt" ./$(TARGET) toyexample.txt
 
 .PHONY: clean valgrind

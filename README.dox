@@ -1,0 +1,28 @@
+/**
+ * @mainpage Evil Hangman Game
+ * 
+ * @section intro Introduction
+ * This project implements an "evil" version of the Hangman game where the
+ * computer tries to maximize its chances of winning by dynamically selecting
+ * the secret word based on the player's guesses.
+ * 
+ * @section algo Algorithm
+ * The algorithm works by:
+ * 1. Reading a dictionary of words of the same length
+ * 2. Starting with all possible words
+ * 3. After each guess, dividing words into families based on letter positions
+ * 4. Selecting the largest family to maximize difficulty
+ * 5. Continuing until the player wins or runs out of guesses
+ * 
+ * @section modules Modules
+ * - @ref hashtable.c : Data structures (lists and hashtables)
+ * - @ref dictionary.c : Dictionary reading and management
+ * - @ref game.c : Game logic and flow control
+ * - @ref as2.c : Main program entry point
+ * 
+ * @section author Author
+ * George Fotiou - University of Cyprus
+ * 
+ * @section date Date
+ * November 2025
+ */
