@@ -135,10 +135,10 @@ int insert_hashtable(HASHTABLE *ht, const char *word, const char *pattern, int w
 int find_largest_family(HASHTABLE *ht, int *largest_index) {
     if (ht == NULL || largest_index == NULL) return 0;
 
-    int max_size = 0;
+    int max_size = ht->slot[0]->size;
     *largest_index = 0;
 
-    for (int i = 0; i < ht->num_slots; i++) {
+    for (int i = 1; i < ht->num_slots; i++) {
         if (ht->slot[i]->size > max_size) {
             max_size = ht->slot[i]->size;
             *largest_index = i;
