@@ -84,7 +84,7 @@ char get_guess(GAME_STATE *game) {
             continue;
         }
 
-        letter = tolower(input[0]);
+        letter = input[0];
 
         if (letter < 'a' || letter > 'z') {
             printf("Wrong input!\n");
